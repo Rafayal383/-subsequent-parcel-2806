@@ -22,10 +22,15 @@
     color: rgb(54, 54, 54);
     font-size: 21px;
 }
+#navbar>div a:hover{
+    text-decoration: none;
+    color: #ff763f;
+    font-size: 21px;
+}
 #navbar>div button{
     background-color: white;
-    color: orangered;
-    border: 1px solid orangered;
+    color: #ff763f;
+    border: 1px solid #ff763f;
     padding: 9px 40px;
     border-radius: 7px;
     cursor: pointer;

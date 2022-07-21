@@ -48,6 +48,9 @@
 #top_section p>a{
     color: black;
 }
+#top_section p>a:hover{
+    color:#ff763f;
+}
 #colo{
     background-color: #f8f8f8;
     width: 100%;
@@ -367,66 +370,7 @@
     background-color: rgb(241, 238, 238);
     cursor: pointer;
 }
-#colo10{
-    width: 100%;
-    background-color: #4f4e53;
-}
-#box{
-    width: 70%;
-    margin: auto;
-    padding: 100px;
 
-}
-#colo10 hr{
-    margin:60px 0;
-}
-.social{
 
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.social img{
-    width: 45px;
-}
-.gp{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
-}
-.gp img{
-    width: 200px;
-}
-#botm{
-    display: flex;
-    justify-content: space-between;
-}
-.raw img{
-    width: 200px;
-}
-.raw{
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    color: #f8f8f8;
-}
-.raw a{
-    text-decoration: none;
-    color: #f8f8f8;
-}
-.cert{
-    padding-top: 100px;
-}
-.cert p{
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    line-height: 5px;
-}
-@media all and (max-width: 767px){
-    
-}
 
 
