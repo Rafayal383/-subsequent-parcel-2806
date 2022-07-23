@@ -1,0 +1,127 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    width: 30%;
+    margin: auto;
+    margin-top:30px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    
+}
+#main img{
+    width: 60%;
+}
+form{
+    width: 100%;
+    margin: auto;
+   border-radius: 10px;
+   font-size: 20px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(183, 182, 182);
+    font-size: 16px;
+    margin: 5px;
+}
+#submit{
+    cursor: pointer;
+    background-color:  rgb(212, 211, 211);
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.cl3{
+    display: flex;
+}
+.cl3 :first-child{
+    margin-right: 50px;
+}
+.cl3 a{
+    color: #ff763f;
+    text-decoration: none;
+}
+.dot{
+
+    height: 8px;
+    width: 8px;
+    border-radius:50%;
+    background-color: #ff763f;
+    display: inline-block;
+    margin: 0 30px;
+}
+#mid{
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+}
+#box{
+    width: 90%;
+    margin: auto;
+}
+#box a{
+    text-decoration: none;
+    color: black;
+}
+#botm{
+    background-color: #4f4e53;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px -10px -10px -10px;
+}
+#botm>div{
+    width: 25%;
+    padding: 50px 0;
+}
+#botm :nth-child(1)>div{
+    display: flex;
+    justify-content: left;
+    
+}
+#botm :nth-child(1) img{
+    width: 40%;
+}
+#botm :nth-child(1) button{
+    
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 30px;
+    background-color: rgb(17, 112, 23);
+    color: white;
+    position: sticky;
+    cursor: pointer;
+}
+#botm :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 10px;
+    
+}
+#botm :nth-child(2) img{
+    width: 60%;
+    cursor: pointer;
+}
+#botm :last-child{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 15px;
+}
+#botm :nth-child(3) img{
+    width: 7%;
+    cursor: pointer;
+}
+
+
+
